@@ -1,0 +1,73 @@
+array:
+
+let frutas = ["Banana", "Manzana", "Pera", "Naranja"];
+
+console.log(frutas[]); /*lo que va entre corchetes es la posicion del array, se empieza desde 0*/
+		       /*Si quiero mostrar el array completo, solo se pone el nombre*/
+
+array asociativo:
+Los arrays asociativos son arrays cuyos keys son strings con valores personalizados
+
+let pc1 = {
+	nombre: "JuanPC",
+	procesador: "Intel Core I7",
+	ram: "16gb",
+	espacio: "1tb"
+};
+
+console.log(pc1["nombre"]); /*Para mostrar el dato se debe poner el nombre*/
+
+let nombre = pc1["nombre"];
+let procesador = pc1["procesador"];
+let ram = pc1["ram"];
+let espacio = pc1["espacio"];
+
+let frase = "El nombre de mi pc es: " + nombre + "<br> El procesador es: " + procesador + "<br> Ram: " + ram + "<br> Espacio: " + espacio;
+
+document.write(frase);
+
+para reemplazar un dato de un indice de un arreglo
+
+frutas[3] = "Tomate"; /*Se quita el dato anterior y se asigna tomate al indice 3*/
+
+el pop elimina el ultimo elemento del arreglo
+
+frutas.pop();
+
+shift elimina el primer elemento del arreglo
+
+frutas.shift();
+
+unshift 
+
+frutas.unshift();
+
+slice devuelve una parte del array
+
+frutas.slice(1,2); Devuelve desde el indice 1 hasta el2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+el for in sirve para mostrar toda las propiedades de un objeto
+
+
+let bolaDeNieve = new gatito ("Pepito", "Pepe", 23);
+
+
+for (let datos in bolaDeNieve){
+     console.log(bolaDeNieve[datos]);
+}
+
+
+
+
+
+for (let perrito of listaPerritos){
+
+console.log(perrito.nombre);
+console.log(perrito.duenio);
+
+
+
+}

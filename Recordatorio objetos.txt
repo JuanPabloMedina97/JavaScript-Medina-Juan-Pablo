@@ -1,0 +1,20 @@
+Objetos:
+
+Herencia, para heredar una clase de debe utilizar extends y para heredar atributos de esa clases super(nombre de atributo)
+por ejemplo
+
+class vehiculo{
+	constructor(marca, modelo){
+		this.marca = marca;
+		this.modelo = modelo;
+	}
+}
+
+class sedan extends vehiculo{ /* Aqui estamos heredando de la clase vehiculo*/
+	constructor(marca,modelo, color, aire){
+		super(marca,modelo);	/*Aqui estamos heredando marca y modelo de la clase vehiculo, no hace falta poner this.*/
+		this.color = color; 
+		this.aire = aire;
+}
+}
+
