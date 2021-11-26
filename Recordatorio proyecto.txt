@@ -1,0 +1,3 @@
+solo son 2 palos, kn6000 dynabow y  kn 7000 ultrabow
+
+la idea es hace un slider de objetos en el carrito, cada objeto muestra la descripcion del mismo
