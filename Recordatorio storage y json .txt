@@ -1,0 +1,3 @@
+Recordemos que:
+JSON.parse() es para parsear o convertir algo a un objeto JSON usable por JavaScript.
+JSON.stringify() es para crear un JSON string de un objeto o un array.
